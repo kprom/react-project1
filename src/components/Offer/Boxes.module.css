@@ -1,0 +1,40 @@
+.offerBoxes {
+  width: 200px;
+  height: 200px;
+  background-color: Plum;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  text-align: center;
+  transition: 0.5s;
+}
+
+.specialBox {
+  position: relative;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.circle {
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  background-color: indigo;
+  position: absolute;
+  top: -10.5px;
+  left: -10.5px;
+}
+
+.circleParagraph {
+  font-size: 20px;
+  margin: 0px;
+}
+
+.offerBoxes:hover {
+  transform: scale(1.05);
+}
+
+.paragraph {
+  margin: 0px;
+}

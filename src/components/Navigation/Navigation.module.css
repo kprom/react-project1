@@ -1,0 +1,46 @@
+.navigation {
+  height: 50px;
+  background-color: #4e4e4e;
+  color: #ffffff;
+}
+
+.container {
+  width: 960px;
+  margin: 0 auto;
+}
+
+.navContainer {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.companyName {
+  font-weight: 700;
+}
+
+.navItems {
+  display: flex;
+  gap: 46px;
+  text-align: center;
+  list-style-type: none;
+}
+
+.disabled {
+  cursor: not-allowed;
+}
+
+.website {
+  cursor: grab;
+}
+
+a:visited {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+a:link {
+  color: #ffffff;
+  text-decoration: none;
+}

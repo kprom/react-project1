@@ -1,0 +1,24 @@
+.footer {
+  height: 70px;
+  background-color: #4e4e4e;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.container {
+  width: 960px;
+  margin: 0 auto;
+}
+
+.footerContainer {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.iconsDiv {
+  display: flex;
+  gap: 15px;
+  font-size: 30px;
+}

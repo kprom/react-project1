@@ -1,0 +1,49 @@
+.header {
+  background-image: url(/src/images/image-background.jpg);
+  background-size: cover;
+  height: calc(100vh - 50px);
+  color: #ffffff;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+.container {
+  width: 960px;
+  margin: 0 auto;
+}
+
+.shadow {
+  height: 100%;
+  background: rgba(0, 0, 0, 0.3);
+}
+
+.headerContainer {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+}
+
+.heading {
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.paragraph {
+  font-weight: 700;
+}
+
+.offerButton {
+  border: 3px solid #ffffff;
+  cursor: grab;
+  background-color: transparent;
+  padding: 14px 58px;
+  color: #ffffff;
+  font-weight: 700;
+  transition: 1s;
+}
+
+.offerButton:hover {
+  background-color: white;
+  color: black;
+}
