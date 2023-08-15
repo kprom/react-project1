@@ -5,11 +5,6 @@
   color: #ffffff;
 }
 
-.container {
-  width: 960px;
-  margin: 0 auto;
-}
-
 .footerContainer {
   height: 100%;
   display: flex;

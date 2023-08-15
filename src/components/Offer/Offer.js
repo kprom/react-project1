@@ -5,7 +5,7 @@ import styles from "./Offer.module.css";
 const Offer = () => {
   return (
     <section id="offer" className={styles.offerSection}>
-      <div className={styles.container}>
+      <div className="container">
         <h2 className={styles.offerHeading}>Czym zajmuje się nasza firma?</h2>
         <div className={styles.boxes}>
           {offers.map((offer, index) => (

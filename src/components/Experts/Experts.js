@@ -1,12 +1,12 @@
 import styles from "./Experts.module.css";
 import firstWoman from "../../images/woman1.jpg";
-import SecondWoman from "../../images/woman2.jpg";
+import secondWoman from "../../images/woman2.jpg";
 import manImage from "../../images/man.jpg";
 
 const Experts = () => {
   return (
     <section id="about" className={styles.experstSection}>
-      <div className={styles.container}>
+      <div className="container">
         <h2 className={styles.heading}>Nasi specjaliści</h2>
         <ul className={styles.expertsList}>
           <li className={styles.expert}>
@@ -43,7 +43,7 @@ const Experts = () => {
           </li>
           <li className={styles.expert}>
             <img
-              src={SecondWoman}
+              src={secondWoman}
               className={styles.image}
               alt="Zdjęcie Celiny Celiny"
             />

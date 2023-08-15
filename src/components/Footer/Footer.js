@@ -5,7 +5,7 @@ import styles from "./Footer.module.css";
 const Footer = () => {
   return (
     <footer className={styles.footer}>
-      <div className={`${styles.container} ${styles.footerContainer}`}>
+      <div className={`container ${styles.footerContainer}`}>
         <p className={styles.paragraph}>
           Ślub Twoich Marzeń - wszelkie prawa zastrzeżone, 2023
         </p>

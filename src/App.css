@@ -10,3 +10,8 @@ body {
   font-family: "Roboto", sans-serif;
   font-size: 18px;
 }
+
+.container {
+  width: 960px;
+  margin: 0 auto;
+}

@@ -4,11 +4,6 @@
   color: #ffffff;
 }
 
-.container {
-  width: 960px;
-  margin: 0 auto;
-}
-
 .navContainer {
   height: 100%;
   display: flex;

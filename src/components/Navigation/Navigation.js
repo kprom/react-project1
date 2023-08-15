@@ -3,7 +3,7 @@ import styles from "./Navigation.module.css";
 const Navigation = () => {
   return (
     <nav className={styles.navigation}>
-      <div className={`${styles.container} ${styles.navContainer}`}>
+      <div className={`container ${styles.navContainer}`}>
         <p className={styles.companyName}>Ślub Twoich Marzeń</p>
         <ul className={styles.navItems}>
           <li className={styles.listItem}>

@@ -1,5 +1,4 @@
 import "./App.css";
-import React from "react";
 import Navigation from "./components/Navigation/Navigation.js";
 import Header from "./components/Header/Header.js";
 import Experts from "./components/Experts/Experts";
